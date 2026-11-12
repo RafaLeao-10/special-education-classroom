@@ -11,7 +11,7 @@
 1. 安装 [Node.js 24](https://nodejs.org/)、[uv](https://docs.astral.sh/uv/getting-started/installation/) 和 [Docker Desktop](https://docs.docker.com/desktop/)。
 2. 在 PowerShell 执行 `npm install -g pnpm@10.28.2`，安装完成后重新打开终端。
 3. 双击项目根目录的 **首次安装.cmd**。脚本安装依赖、准备本地数据库并创建演示账号。
-4. 在浏览器访问 http://127.0.0.1:5173/，演示账号为 `teacher`，密码为 `classroom-demo`。
+4. 在浏览器访问 [http://127.0.0.1:5173/](http://127.0.0.1:5173/)，演示账号为 `teacher`，密码为 `classroom-demo`。
 
 以后先启动 Docker Desktop，再双击 **启动平台.cmd**。使用时保持启动窗口打开；按 Ctrl+C 可停止平台。数据库和上传资料保存在本机，更新代码前请自行备份。
 
